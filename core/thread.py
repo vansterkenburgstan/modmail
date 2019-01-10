@@ -225,7 +225,7 @@ class ThreadManager:
 
         em = discord.Embed(
             title='Thread started' if creator else 'Thanks for the message!',
-            description='The moderation team will get back to you as soon as possible!',
+            description='Hi and thanks for contacting J-Tech Support! Please hold while we find an agent for you.',
             color=discord.Color.green()
         )
 
