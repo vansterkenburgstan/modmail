@@ -129,7 +129,7 @@ class Thread:
 
         if from_mod:
             em.color = discord.Color.green()
-            em.set_footer(text=f'Moderator')
+            em.set_footer(text=f'Customer Service Representative')
         else:
             em.color = discord.Color.gold()
             em.set_footer(text=f'User')
