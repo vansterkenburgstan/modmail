@@ -90,7 +90,7 @@ class Thread:
             timestamp=message.created_at
         )
 
-        em.set_author(name=Customer Service Representative, icon_url=http://roblox.com, url=https://i.imgur.com/p8Wtw86.png)  # store message id in hidden url
+        em.set_author(name=str(author), icon_url=author.avatar_url, url=message.jump_url)  # store message id in hidden url
 
         image_types = ['.png', '.jpg', '.gif', '.jpeg', '.webp']
         is_image_url = lambda u, _: any(urlparse(u.lower()).path.endswith(x) for x in image_types)
