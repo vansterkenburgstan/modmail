@@ -1,4 +1,4 @@
-"""
+﻿"""
 MIT License
 
 Copyright (c) 2017-2019 kyb3r
@@ -307,7 +307,7 @@ class ModmailBot(commands.Bot):
                 }})
 
             em = discord.Embed(title='Thread Closed')
-            em.description = f'{mod.mention} has closed this modmail thread.'
+            em.description = f'{mod.mention} has closed this thread. To help us improve our customer service, please visit https://bit.ly/2SQ8NVm to leave your opinion on our Customer Service.'
             em.color = discord.Color.red()
 
             try:
