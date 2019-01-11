@@ -1,4 +1,4 @@
-
+﻿
 import discord
 from discord.ext import commands
 import datetime
@@ -126,7 +126,7 @@ class Modmail:
         await thread.close()
 
         em = discord.Embed(title='Thread Closed')
-        em.description = f'{ctx.author.mention} has closed this modmail thread.'
+        em.description = f'{ctx.author.mention} has closed this thread. To help us improve our customer service, please visit https://bit.ly/2SQ8NVm to leave your opinion on our Customer Service.'
         em.color = discord.Color.red()
 
         try:
